@@ -1,0 +1,27 @@
+# Build and output directories
+**/bin/
+**/obj/
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# IDE and OS files
+.DS_Store
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test results and coverage
+TestResults/
+*.trx
+coverage/
+
+# Logs
+*.log
